@@ -1,0 +1,79 @@
+@use 'colours.scss';
+
+$mobile-width: 1000px;
+$oversize-width: 1400px;
+
+/** 
+  * Default grid class with 6 columns
+  */
+.grid {
+    display: grid;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+}
+
+/**
+  * Grid generation function 
+  */
+@mixin grid-x-list($columns) {
+    @for $i from 1 through $columns {
+        .grid-#{$i} {
+            @extend .grid;
+            grid-template-columns: repeat($i, 1fr);
+        }
+    }
+}
+
+/**
+  * Call grid generation function to create classes grid-1 to grid-n 
+  */
+@include grid-x-list(12);
+
+/**
+  * Global settings
+  */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, td {
+  font-family: Arial, Helvetica, sans-serif;
+  color: colours.$text;
+}
+
+a:link {
+  color: colours.$text;
+}
+
+a:visited {
+  color: colours.$text-visited;
+}
+
+a:active, a:hover {
+  color: colours.$text-active;
+}
+
+/**
+  * Grid definitions including media queries
+  */
+.component-grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+@media (max-width: $mobile-width) {
+  .component-grid {
+    display: grid;
+    grid-template-columns: 0% 100%;
+  }
+}
+
+@media (min-width: $oversize-width) {
+  .component-grid {
+    display: grid;
+    grid-template-columns: floor(0.25 * $oversize-width) floor(0.75 * $oversize-width);
+  }
+}

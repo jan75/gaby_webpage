@@ -1,0 +1,19 @@
+div.header-img {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+div.header-img img {
+    width: 100%;
+}
+
+div.text {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+  
+p.indent {
+    margin-left: 0.4em;
+}
