@@ -20,24 +20,28 @@ import Rabe from '../components/Rabe.vue'
 </template>
 
 <style scoped lang="scss">
+@use '@/assets/scss/variables.scss';
 
 .header {
   grid-column-start: 2;
   grid-column-end: 3;
   display: grid;
   grid-template-columns: repeat(2, auto);
+  margin-left: variables.$text-margin-left;
+  margin-right: variables.$text-margin-right;
 }
 
 .header nav {
-  margin-right: 1em;
   text-align: right;
+  padding-top: 30px;
 }
 
 .header nav a {
   margin-right: 0.5em;
+  font-size: 14pt;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: variables.$mobile-width) {
   .header {
     grid-template-columns: 20% 80%;
   }
@@ -45,16 +49,18 @@ import Rabe from '../components/Rabe.vue'
   .header nav {
     display: grid;
     row-gap: 0.3em;
+    padding-top: 0px;
   }
 }
 
-@media (max-width: 319px) {
+@media (max-width: variables.$supersmall-width) {
   .header {
     grid-template-columns: 100%;
   }
 
   .header nav {
     text-align: left;
+    padding-top: 0px;
   }
 
   .header .icon {

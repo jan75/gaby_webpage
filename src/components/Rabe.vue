@@ -7,5 +7,8 @@ import rabe from '@/assets/img/rabe.svg'
 </template>
 
 <style scoped lang="scss">
+img {
+  width: 60px;
+}
 
 </style>

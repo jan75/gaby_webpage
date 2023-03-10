@@ -1,3 +1,6 @@
+@use 'colours.scss';
+@use 'variables.scss';
+
 div.header-img {
     grid-row-start: 1;
     grid-column-start: 1;
@@ -12,6 +15,8 @@ div.text {
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 3;
+    margin-left: variables.$text-margin-left;
+    margin-right: variables.$text-margin-right;
 }
   
 p.indent {

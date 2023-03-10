@@ -1,7 +1,5 @@
 @use 'colours.scss';
-
-$mobile-width: 1000px;
-$oversize-width: 1400px;
+@use 'variables.scss';
 
 /** 
   * Default grid class with 6 columns
@@ -64,16 +62,16 @@ a:active, a:hover {
   grid-template-columns: 20% 80%;
 }
 
-@media (max-width: $mobile-width) {
+@media (max-width: variables.$mobile-width) {
   .component-grid {
     display: grid;
     grid-template-columns: 0% 100%;
   }
 }
 
-@media (min-width: $oversize-width) {
+@media (min-width: variables.$oversize-width) {
   .component-grid {
     display: grid;
-    grid-template-columns: floor(0.25 * $oversize-width) floor(0.75 * $oversize-width);
+    grid-template-columns: floor(0.25 * variables.$oversize-width) floor(0.75 * variables.$oversize-width);
   }
 }
