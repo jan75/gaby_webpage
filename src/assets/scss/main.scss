@@ -1,5 +1,6 @@
 @use 'colours.scss';
 @use 'variables.scss';
+@use 'fonts.scss';
 
 /** 
   * Default grid class with 6 columns
@@ -38,7 +39,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a, li, td {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lato, Arial, Helvetica, sans-serif;
   color: colours.$text;
 }
 
