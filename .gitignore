@@ -29,3 +29,6 @@ coverage
 .vscode
 
 src/assets/img
+
+# User defined
+deploy.sh
