@@ -8,12 +8,23 @@ import GabyAboutImage from '@/assets/img/gaby_about_me.jpg'
       <img v-bind:src="GabyAboutImage" alt="Banner" title="Banner" />
     </div>
     <div class="text">
-      <h1>Das ist ein Titel</h1>
-      <h2>Unterüberschrift 1</h2>
-      <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
-      <h2>Unterüberschrift 2</h2>
-      <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse. Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort.</p>      
-      <p>Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da, wo sie herkäme wäre sie</p>      
+      <h1>Über mich</h1>
+      <ul>
+        <li>Geboren 1958 in Bonn</li>
+        <li>Aufgewachsen in Westfalen</li>
+        <li>Ausbildung zur Assistentin an Bibliotheken</li>
+        <li>Übersiedlung in die Schweiz 1986</li>
+        <li>Ausbildung zur Schauspielerin und Sprecherin</li>
+        <li>Engagements im Freien Theater, Film, Fernsehen und Tonstudios</li>
+        <li>Co-Leitung der FREIEN TRUPPE BERN</li>
+        <li>Unterrichts- und Coaching-Tätigkeit für die Bereiche, Schauspiel, Präsentation und Sprechtechnik an diversen Institutionen und im eigenen Atelier</li>
+        <li>Leitung Bereich Schauspiel für Kinder, Jugendliche und Erwachsene</li>
+        <li>Realisation und Beteiligung an diversen sprachlich-musikalischen</li>
+        <li>Projekten</li>
+        <li>Gründung des musik-kabarettistischen Duos «Rabe & Garatti»</li>
+        <li>Solo-Auftritte als sprechende Musikantin und Performerin</li>
+        <li>Ausbildung und Weiterbildung zur Pranic Healing Praktikerin</li>
+      </ul>
     </div>
   </div>
 </template>

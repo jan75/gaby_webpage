@@ -10,10 +10,11 @@ import Rabe from '../components/Rabe.vue'
           <Rabe />
         </RouterLink>
       </div>
-      <nav>
-          <RouterLink to="/">Sprecherin</RouterLink>
-          <RouterLink to="/about">About me</RouterLink>
-          <RouterLink to="/contact">Kontakt</RouterLink>
+      <nav>          
+          <RouterLink to="/">Über mich</RouterLink>
+          <RouterLink to="/kontakt">Kontakt</RouterLink>
+          <RouterLink to="/sprecherin">Sprecherin</RouterLink>
+          <RouterLink to="/kuenstlerin">Künstlerin</RouterLink>
       </nav>
     </div>
   </div>
