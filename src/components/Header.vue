@@ -12,9 +12,9 @@ import Rabe from '../components/Rabe.vue'
       </div>
       <nav>          
           <RouterLink to="/">Über mich</RouterLink>
-          <RouterLink to="/kontakt">Kontakt</RouterLink>
           <RouterLink to="/sprecherin">Sprecherin</RouterLink>
           <RouterLink to="/kuenstlerin">Künstlerin</RouterLink>
+          <RouterLink to="/kontakt">Kontakt</RouterLink>
       </nav>
     </div>
   </div>

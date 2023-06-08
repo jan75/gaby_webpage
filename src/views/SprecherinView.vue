@@ -16,9 +16,7 @@ import HistoryErklaervideoAudioFile from '@/assets/audio/History_Erklaervideo.mp
       <h1>Sprecherin</h1>
 
       <p>Audio demos:</p>
-      <Audio v-bind:filepath="HistoryErklaervideoAudioFile" mediatype="audio/mpeg" />
-
-      <p>Imagevideo <a href="https://www.youtube.com/watch?v=FREg70BgTKY" ><q>Le pont - Arbeit in Würde</q></a></p>
+      <Audio v-bind:filepath="HistoryErklaervideoAudioFile" title="Erklärvideo Geschichte" mediatype="audio/mpeg" />
       
       <p>Some other content below video</p>
     </div>

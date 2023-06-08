@@ -1,3 +1,4 @@
+/* junction regular */
 @font-face {
     font-family: 'junctionregular';
     src: url('../fonts/junction-fontfacekit/Junction-regular-webfont.woff') format('woff');
@@ -48,4 +49,14 @@
          url('../fonts/lato/lato-v23-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/lato/lato-v23-latin-regular.svg#Lato') format('svg'); /* Legacy iOS */
 }
+
+/* open-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans/open-sans-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
   
