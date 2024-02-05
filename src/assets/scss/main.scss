@@ -70,7 +70,14 @@ a:active, a:hover {
   }
 }
 
-@media (min-width: variables.$oversize-width) {
+@media (min-width: variables.$fullsize-width) {
+  .component-grid {
+    display: grid;
+    grid-template-columns: floor(0.25 * variables.$fullsize-width) floor(0.75 * variables.$fullsize-width);
+  }
+}
+
+@media (min-width: variables.$oversize-cutoff) {
   .component-grid {
     display: grid;
     grid-template-columns: floor(0.25 * variables.$oversize-width) floor(0.75 * variables.$oversize-width);

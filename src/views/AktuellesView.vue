@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GabyHomeImage from '@/assets/img/gaby_home.jpg'
+import GabyAktuellesImage from '@/assets/img/weg_1500x800.jpg'
 
 import EmbedYoutubeVideo from '@/components/EmbedYoutubeVideo.vue'
 import Audio from '@/components/Audio.vue'
@@ -10,15 +10,11 @@ import HistoryErklaervideoAudioFile from '@/assets/audio/History_Erklaervideo.mp
 <template>
   <div class="component-grid">
     <div class="header-img">
-      <img v-bind:src="GabyHomeImage" alt="Banner" title="Banner" />
+      <img v-bind:src="GabyAktuellesImage" alt="Banner" title="Banner" />
     </div>
     <div class="text">
-      <h1>Sprecherin</h1>
-
-      <p>Audio demos:</p>
-      <Audio v-bind:filepath="HistoryErklaervideoAudioFile" title="Erklärvideo Geschichte" mediatype="audio/mpeg" />
-      
-      <p>Some other content below video</p>
+      <h1>Aktuelles</h1>
+      <p>Informationen über meine Auftritte und sonstige aktuelle Tätigkeiten.</p>
     </div>
   </div>
 </template>

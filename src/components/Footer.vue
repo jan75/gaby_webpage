@@ -4,9 +4,7 @@
 
 <template>
   <div class="footer component-grid">
-    <div class="text">
-      <p>Footer</p>
-    </div>
+
   </div>
 </template>
 

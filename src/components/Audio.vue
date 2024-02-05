@@ -20,7 +20,6 @@ onMounted(() => {
 
 <template>
   <div class="audio-wrapper">
-    <span class="title">{{ title }}</span>
     <audio controls v-if="filepath">
       <source v-bind:src="filepath" v-bind:type="mediatype" />
     </audio>
@@ -32,7 +31,7 @@ onMounted(() => {
 
 .audio-wrapper {
   display: grid;
-  grid-template-columns: minmax(max-content, 20%) auto;
+  grid-template-columns: 60%;
   align-items: center;
 }
 

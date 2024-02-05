@@ -10,10 +10,10 @@ import Rabe from '../components/Rabe.vue'
           <Rabe />
         </RouterLink>
       </div>
-      <nav>          
-          <RouterLink to="/">Über mich</RouterLink>
-          <RouterLink to="/sprecherin">Sprecherin</RouterLink>
-          <RouterLink to="/kuenstlerin">Künstlerin</RouterLink>
+      <nav>
+          <RouterLink to="/">Aktuelles</RouterLink>
+          <RouterLink to="/ausdruck">Ausdruck</RouterLink>
+          <RouterLink to="/about">Über mich</RouterLink>
           <RouterLink to="/kontakt">Kontakt</RouterLink>
       </nav>
     </div>
@@ -38,8 +38,10 @@ import Rabe from '../components/Rabe.vue'
 }
 
 .header nav a {
-  margin-right: 0.5em;
+  margin-right: 0.8em;
   font-size: 14pt;
+  color: #464646;
+  text-decoration: none;
 }
 
 @media (max-width: variables.$mobile-width) {

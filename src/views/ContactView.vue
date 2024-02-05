@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GabyContactImage from '@/assets/img/gaby_contact.jpg'
+import GabyContactImage from '@/assets/img/rosen_1500x800.jpg'
 </script>
 
 <template>
@@ -8,6 +8,19 @@ import GabyContactImage from '@/assets/img/gaby_contact.jpg'
       <img v-bind:src="GabyContactImage" alt="Banner" title="Banner" />
     </div>
     <div class="text">
+      <h2>Kontakt</h2>
+      <p><strong>
+        Gaby Rabe<br>
+        Ambühl 20<br>
+        3043 Uettligen
+      </strong></p>
+
+      <p>
+        Tel. +41 (0)31 829 37 66
+        rabe@schauspielunterricht-bern.ch
+      </p>
+
+      <!-- old content
       <h1>Kontakt</h1>
       <p><strong>
         Gaby Rabe<br>
@@ -27,6 +40,7 @@ import GabyContactImage from '@/assets/img/gaby_contact.jpg'
       <p class="indent">
         Bern-Neufeld, Richtung Aarberg, Thalmatt, Uettligen, Fahrzeit 10 Min.
       </p>
+      -->
     </div>
   </div>
 </template>

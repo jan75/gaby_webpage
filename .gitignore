@@ -30,3 +30,5 @@ coverage
 
 # User defined
 deploy.sh
+
+src/assets/img

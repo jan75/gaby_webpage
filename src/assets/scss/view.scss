@@ -12,13 +12,14 @@ div.header-img img {
 }
 
 div.text {
+    margin-top: 10px;
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 3;
     margin-left: variables.$text-margin-left;
     margin-right: variables.$text-margin-right;
 }
-  
+
 p.indent {
     margin-left: 0.4em;
 }
